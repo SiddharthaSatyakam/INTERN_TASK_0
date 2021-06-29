@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
         EditText b_ranch = findViewById(R.id.Branch);
         EditText years = findViewById(R.id.year);
         EditText reg_no = findViewById(R.id.regno);
-        String msg= pers_name.getText().toString()+"\n"+b_ranch.getText().toString()+"\n"+
-                years.getText().toString()+"\n"
-                +reg_no.getText().toString();
+        String msg= "NAME:- "+"  "+pers_name.getText().toString()+"\n\n"+"BRANCH:-"+"  "+b_ranch.getText().toString()+"\n\n"+
+                "YEAR:- "+"  "+years.getText().toString()+"\n\n"+"REGD.NO:- "+"  "+
+                reg_no.getText().toString();
         obj.putExtra(pass,msg);
         startActivity(obj);
     }

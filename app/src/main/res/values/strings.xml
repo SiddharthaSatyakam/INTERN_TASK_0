@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">login</string>
+    <string name="login">LOGIN</string>
+    <string name="branch">BRANCH</string>
+    <string name="year">YEAR</string>
+    <string name="registration_number">REGISTRATION NUMBER</string>
+    <string name="welcome">WELCOME</string>
+    <string name="enter_your_name">ENTER YOUR NAME</string>
 </resources>
